@@ -1,0 +1,89 @@
+body {font-family: 'Lora', serif;
+font-family: 'Quattrocento', serif;
+}
+/* Nav Bar */
+
+.navbar {
+    width: 1280px;
+    height: 99px;
+    padding: 21px 58px 26px 16px;
+    background-color: #382e59;
+vertical-align: top;
+display: inline-block;
+}
+.Alex-Pottebaum {
+    width: 262px;
+    height: 52px;
+    margin: 0 523px 0 0;
+    font-family: Quattrocento;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+}
+.About {
+    width: 105px;
+    height: 41px;
+    margin: 6px 45px 5px 523px;
+    font-family: Quattrocento;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+}
+.Projects {
+    width: 115px;
+    height: 41px;
+    margin: 6px 45px 5px;
+    font-family: Quattrocento;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+}
+.Resume {
+    width: 111px;
+    height: 41px;
+    margin: 6px 0 5px 45px;
+    font-family: Quattrocento;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+}
+/* Main Body */  
+#shark {
+        width: 1280px;
+        height: 472px;
+        margin: 99px 0 62px;
+}
+.mainPage {
+        width: 162px;
+        height: 43px;
+        margin: 62px 959px 85px 159px;
+        font-family: Quattrocento;
+        font-size: 28px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: var(--white);
+}

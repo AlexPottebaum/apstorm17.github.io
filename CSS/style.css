@@ -1,20 +1,21 @@
-body {font-family: 'Lora', serif;
-font-family: 'Quattrocento', serif;
+body {
+    font-family: 'Lora', serif;
+    font-family: 'Quattrocento', serif;
+    background-color: #1f1d1e;
 }
 /* Nav Bar */
-
 .navbar {
     width: 1280px;
     height: 99px;
-    padding: 21px 58px 26px 16px;
     background-color: #382e59;
-vertical-align: top;
-display: inline-block;
+    display: flex;
+    align-items: flex-start;
+    color: #ffffff;
 }
-.Alex-Pottebaum {
-    width: 262px;
+#Alex-Pottebaum {
+    width: 100px;
     height: 52px;
-    margin: 0 523px 0 0;
+    margin: 6px 523px 5px 5px;
     font-family: Quattrocento;
     font-size: 30px;
     font-weight: bold;
@@ -22,13 +23,13 @@ display: inline-block;
     font-style: normal;
     line-height: normal;
     letter-spacing: normal;
-    text-align: center;
-    color: var(--white);
+    align-items: center;
+    color: (#ffffff);
 }
-.About {
+#about {
     width: 105px;
     height: 41px;
-    margin: 6px 45px 5px 523px;
+    margin: 6px 20px;
     font-family: Quattrocento;
     font-size: 30px;
     font-weight: bold;
@@ -37,12 +38,12 @@ display: inline-block;
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
-    color: var(--white);
+    color: (#ffffff);
 }
-.Projects {
+#projects {
     width: 115px;
     height: 41px;
-    margin: 6px 45px 5px;
+    margin: 6px 20px;
     font-family: Quattrocento;
     font-size: 30px;
     font-weight: bold;
@@ -51,12 +52,12 @@ display: inline-block;
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
-    color: var(--white);
+    color: (#ffffff);
 }
-.Resume {
+#resume {
     width: 111px;
     height: 41px;
-    margin: 6px 0 5px 45px;
+    margin: 6px 20px;
     font-family: Quattrocento;
     font-size: 30px;
     font-weight: bold;
@@ -65,15 +66,21 @@ display: inline-block;
     line-height: normal;
     letter-spacing: normal;
     text-align: center;
-    color: var(--white);
+    color: (#ffffff);
+}
+#resume, #projects, #about {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+
 }
 /* Main Body */  
 #shark {
         width: 1280px;
         height: 472px;
-        margin: 99px 0 62px;
+        justify-content: center;
 }
-.mainPage {
+p {
         width: 162px;
         height: 43px;
         margin: 62px 959px 85px 159px;
@@ -85,5 +92,81 @@ display: inline-block;
         line-height: normal;
         letter-spacing: normal;
         text-align: left;
-        color: var(--white);
+        color: (#ffffff);
 }
+
+#casestudyOFFbox1 {
+    width: 835px;
+    height: 200px;
+    padding: 0 30.1px 100px 29.1px;
+    background-color: #000;
+  }
+  
+#casestudyOFFbox2 {
+    width: 834px;
+    height: 630px;
+    margin: 200px 0 0 1px;
+    background-color: #d9d9d9;
+  }
+  
+#casestudyOFFbox3 {
+    width: 835px;
+    height: 830px;
+    border: solid 5px var(--white);
+  }
+  
+.headline{
+    width: 775.7px;
+    height: 100px;
+    font-family: Quattrocento;
+    font-size: 30px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: (white);
+  }
+  
+  .Hero-Cards-Desktop.variant2-off .The-original-Orlando-Film-Festival-OFF-website-had-numerous-accessibility-aesthetic-and-archi {
+    width: 750.6px;
+    height: 146.3px;
+    margin: 82px 43.2px 84.7px 41.2px;
+    font-family: Quattrocento;
+    font-size: 18px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.44;
+    letter-spacing: normal;
+    text-align: center;
+    color: var(--white);
+  }
+  
+  .Hero-Cards-Desktop.variant2-off .Rectangle-31 {
+    width: 834px;
+    height: 113px;
+    margin: 200px 1px 0 0;
+    background-color: #0f1026;
+  }
+  
+  .Hero-Cards-Desktop.variant2-off .Rectangle-32 {
+    width: 834px;
+    height: 113px;
+    margin: 404px 1px 0 0;
+    background-color: #0f1026;
+  }
+  
+  .Hero-Cards-Desktop.variant2-off .Rectangle-33 {
+    width: 834px;
+    height: 404px;
+    margin: 84.7px 1px 0 0;
+    padding: 31px 17px 31.7px;
+    background-color: #000;
+  }
+  
+  .Hero-Cards-Desktop.variant2-off .OFF-Logo-4 {
+    width: 800px;
+    height: 341.3px;
+  }

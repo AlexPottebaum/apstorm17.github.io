@@ -74,16 +74,36 @@ body {
     align-items: flex-end;
 
 }
-/* Main Body */  
+/* Main Body */
+.mainPage {
+    background-color: #1f1d1e;
+    color: #ffffff;
+}
+
 #shark {
         width: 1280px;
         height: 472px;
         justify-content: center;
 }
+h1 {
+    width: 162px;
+    height: 43px;
+    margin: 20px 20px;
+    font-family: Quattrocento;
+    font-size: 28px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: (#ffffff);
+  }
+
 p {
-        width: 162px;
+        width: 1200px;
         height: 43px;
-        margin: 62px 959px 85px 159px;
+        margin: 20px 20px;
         font-family: Quattrocento;
         font-size: 28px;
         font-weight: normal;
@@ -94,6 +114,8 @@ p {
         text-align: left;
         color: (#ffffff);
 }
+
+/* Case Studies */
 
 #casestudyOFFbox1 {
     width: 835px;
